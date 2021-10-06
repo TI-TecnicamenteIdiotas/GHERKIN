@@ -2,11 +2,11 @@
 #language: en
 Feature: Candidatar a vaga
 Como um usuário do sistema
-Pedro quer candidatar a uma vaga
+Um usuáio quer candidatar a uma vaga
 Para que ele possa arrumar um emprego
 
 Background:
-Given que Pedro está cadastrado no sistema
+Given O usuário está cadastrado no sistema
 
 	Scenario: Candidatura com sucesso
 		And está logado
