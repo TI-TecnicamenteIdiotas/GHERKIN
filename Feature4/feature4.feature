@@ -12,3 +12,6 @@ Feature: Inscrição no Processo Seletivo
         Then testable outcome
 
     Scenario:
+        Given precondition
+        When action
+        Then testable outcome

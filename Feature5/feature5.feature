@@ -12,3 +12,6 @@ Feature: Tela de Acompanhamento
         Then testable outcome
 
     Scenario:
+        Given precondition
+        When action
+        Then testable outcome
