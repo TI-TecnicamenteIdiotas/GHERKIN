@@ -15,7 +15,7 @@ Given O usuário está cadastrado no sistema
 		When ele clicar para candidatar a vaga
 		Then ele recebe uma mensagem dizendo que “A candidatura foi feita com sucesso”
 
-Scenario: Vaga não aceita mais inscrições
+	Scenario: Vaga não aceita mais inscrições
 		And está logado
 		And ele acessar a página com todas as vagas cadastradas
 		And escolher uma vaga
